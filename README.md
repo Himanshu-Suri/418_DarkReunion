@@ -1,4 +1,4 @@
-# Satellite Imaging Planner - Enigma 418
+# Satellite Imaging Planner - Enigma 418 - Second place
 
 **Team:** Himanshu Suri , Kush Jalan , Rakshit Raj , Bhavesh Gunreddy
 
