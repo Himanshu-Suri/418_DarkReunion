@@ -1,4 +1,4 @@
-# Satellite Imaging Planner — Enigma 418
+# Satellite Imaging Planner - Enigma 418
 
 **Team:** Himanshu Suri , Kush Jalan , Rakshit Raj , Bhavesh Gunreddy
 
@@ -6,7 +6,7 @@
 
 ## What It Does
 
-An autonomous satellite imaging scheduler that, given a TLE (Two-Line Element) orbital description and an Area of Interest (AOI), plans the optimal sequence of camera shots during a pass window , minimizing attitude slew effort while maximizing ground coverage.
+An autonomous satellite imaging scheduler that, given a TLE (Two-Line Element) orbital description and an Area of Interest (AOI), plans the optimal sequence of camera shots during a pass window minimizing attitude slew effort while maximizing ground coverage.
 
 ## How It Works
 
@@ -28,7 +28,7 @@ An autonomous satellite imaging scheduler that, given a TLE (Two-Line Element) o
 
 ## Inputs
 
-````python
+```python
 plan_imaging(
     tle_line1,          # TLE line 1
     tle_line2,          # TLE line 2
@@ -37,7 +37,7 @@ plan_imaging(
     pass_end_utc,       # ISO 8601 string
     sc_params           # {"integration_s": <float>}
 )
-\```
+```
 
 ## Output
 
@@ -47,7 +47,7 @@ plan_imaging(
   "attitude": [{ "t": 0.0, "q_BN": [qx, qy, qz, qw] }, "..."],
   "shutter":  [{ "t_start": 12.5, "duration": 1.0 }, "..."]
 }
-\```
+```
 
 ## Dependencies
 
@@ -55,10 +55,8 @@ plan_imaging(
 sgp4
 scipy
 numpy
-\```
+```
 
 ---
 
-*Built for Enigma 418 Hackathon*
-````
-
+> *Built for Enigma 418 Hackathon*
